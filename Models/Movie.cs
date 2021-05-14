@@ -16,8 +16,7 @@ namespace Lab1_.NET.Models
 
         public ushort DurationInMinutes { get; set; }
 
-        [Required(ErrorMessage = "Year of release is required.")]
-        public byte YearOfRelease { get; set; }
+        public ushort YearOfRelease { get; set; }
 
         public string Director { get; set; }
 
